@@ -26,9 +26,9 @@
 ---
 
 ### :man_technologist: About Me :
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+- :telescope: I’m working as a Fullstack and contributing to frontend and backend for building web applications.
 
-- :seedling: Exploring Technical Content Writing.
+- :seedling: I'm currently learning React.js.
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
@@ -47,7 +47,9 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="Npm" alt="Npm" width="40" height="40" style="padding-right:10px;"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40" style="padding-right:10px;"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="Sass" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" title="Vue" alt="Vue" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MaterialUi" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="Pgsql" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+
 </div>
 
 ---
