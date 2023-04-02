@@ -49,6 +49,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="Sass" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MaterialUi" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="Pgsql" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="Pgsql" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 
 </div>
 
