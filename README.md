@@ -47,9 +47,9 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="Npm" alt="Npm" width="40" height="40" style="padding-right:10px;"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40" style="padding-right:10px;"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="Sass" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
- <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MaterialUi" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="Pgsql" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="Pgsql" alt="Sass" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MaterialUi" alt="MaterialUi" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="Pgsql" alt="Pgsql" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="nodejs" alt="nodejs" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 
 </div>
 
