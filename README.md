@@ -50,7 +50,8 @@
  <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="MaterialUi" alt="MaterialUi" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="Pgsql" alt="Pgsql" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="nodejs" alt="nodejs" width="40" height="40" style="padding-right:10px;"/>&nbsp;
-
+<img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title="nextjs" alt="nextjs" width="40" height="40" style="padding-right:10px;"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="tailwindcss" alt="tailwindcss" width="40" height="40" style="padding-right:10px;"/>&nbsp;
 </div>
 
 ---
