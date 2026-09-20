@@ -15,8 +15,6 @@
 
 <br><br>
 
-<h3><code>mete@github ~ $ contact --list</code></h3>
-
 <a href="https://www.linkedin.com/in/meteucar">
   <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=39d353&labelColor=0d1117" />
 </a>
