@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./info-card.svg" width="490" />
+<img src="./info-card.svg?v=2" width="490" />
 
 <br><br>
 
