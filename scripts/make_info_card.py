@@ -1,6 +1,6 @@
 import os
 
-W, H = 490, 300
+W, H = 490, 264
 BG = "#0d1117"
 BORDER = "#30363d"
 KEY = "#39d353"
@@ -10,7 +10,7 @@ FONT = "Consolas,Menlo,monospace"
 STATIC = os.environ.get("STATIC") == "1"
 OUT = "info-card.svg"
 
-TITLE = "mete@github"
+TITLE = "Mete Uçar"
 ROWS = [
     ("OS",        "Windows 11 / WSL2"),
     ("Role",      "Frontend Developer @ 32Bit"),
@@ -19,7 +19,6 @@ ROWS = [
     ("Forms",     "React Hook Form + Zod"),
     ("Backend",   "Docker / nginx / Spring Boot"),
     ("Education", "Computer Eng. - Sakarya Uni '25"),
-    ("Since",     "2023"),
 ]
 
 PAD = 22
@@ -63,16 +62,6 @@ for i, (k, v) in enumerate(ROWS):
         f'<text x="{PAD}" y="{y}" fill="{KEY}">{k}</text>'
         f'<text x="{PAD+KEY_W}" y="{y}" fill="{VAL}">{v}</text>'
         f'{anim(b)}</g>'
-    )
-
-# alt renk şeridi (neofetch klasiği)
-sw, sy = 18, H - 30
-for i, c in enumerate(["#161b22", "#0e4429", "#006d32", "#26a641",
-                       "#39d353", "#69f0a0", "#8b949e", "#c9d1d9"]):
-    p.append(
-        f'<g opacity="{op}"><rect x="{PAD + i*sw}" y="{sy}" width="{sw-3}" '
-        f'height="12" rx="2" fill="{c}"/>'
-        f'{anim(0.15 + len(ROWS)*DELAY + i*0.03)}</g>'
     )
 
 p.append('</svg>')
