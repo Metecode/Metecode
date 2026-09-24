@@ -8,7 +8,9 @@
 
 <br><br>
 
-<h3><code>mete@github ~ $ contact --list</code></h3>
+<img src="https://streak-stats.demolab.com/?user=Metecode&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=6e7681" width="490" />
+
+<br><br>
 
 <a href="https://www.linkedin.com/in/meteucar">
   <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=39d353&labelColor=0d1117" />
