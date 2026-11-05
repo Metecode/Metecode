@@ -1,0 +1,59 @@
+name: Streak-Card
+
+"on":
+  schedule:
+    - cron: "0 0 * * *" # 00:00 UTC = 03:00 Europe/Istanbul (UTC+3, no DST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with profile-3d.yml so the two jobs never push at the same time.
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: false
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Test streak logic
+        run: python3 -m unittest discover -s scripts -p "test_*.py"
+
+      - name: Generate streak.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STREAK_USER: ${{ github.repository_owner }}
+        run: python3 scripts/streak_card.py --output streak.svg
+
+      - name: Commit & push if changed
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -- streak.svg
+          if git diff --cached --quiet -- streak.svg; then
+            echo "streak.svg unchanged, nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: update streak card [skip ci]" -- streak.svg
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${BRANCH}"; then
+              exit 0
+            fi
+            echo "push rejected (attempt ${attempt}), rebasing onto origin/${BRANCH}"
+            git fetch origin "${BRANCH}"
+            if ! git rebase "origin/${BRANCH}"; then
+              git rebase --abort
+              echo "::error::rebase conflict on streak.svg, aborting without force push"
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::push failed after 5 attempts"
+          exit 1

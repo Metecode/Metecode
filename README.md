@@ -8,7 +8,7 @@
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com/?user=Metecode&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=6e7681" width="490" />
+<img src="./streak.svg" width="490" alt="GitHub contribution streak" />
 
 <br><br>
 
