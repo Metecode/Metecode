@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="195" viewBox="0 0 490 195" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" role="img" aria-labelledby="t d">
+<title id="t">GitHub contribution streak</title>
+<desc id="d">GitHub contribution stats for Metecode since account creation (2020-09-25): 1090 total contributions, current streak 1 days, longest streak 33 days.</desc>
+<rect x="0.5" y="0.5" width="489" height="194" rx="8" fill="#0d1117" stroke="#30363d"/>
+<line x1="163.3" y1="28" x2="163.3" y2="167" stroke="#30363d"/>
+<line x1="326.7" y1="28" x2="326.7" y2="167" stroke="#30363d"/>
+<text x="81.7" y="92" text-anchor="middle" fill="#c9d1d9" font-size="28" font-weight="bold">1,090</text>
+<text x="81.7" y="125" text-anchor="middle" fill="#8b949e" font-size="14" font-weight="normal">Total Contributions</text>
+<text x="81.7" y="150" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="normal">Sep 25, 2020 – Present</text>
+<circle cx="245.0" cy="76" r="40" fill="none" stroke="#39d353" stroke-width="5"/>
+<circle cx="245.0" cy="36" r="14" fill="#0d1117"/>
+<path transform="translate(245.0 36)" fill="#39d353" d="M0,-13C3,-8 9,-4 9,4C9,10 5,13 0,13C-5,13 -9,10 -9,4C-9,-1 -6,-4 -4,-7C-3.5,-3.5 -2,-1.5 0,0C1.5,-4 1,-8 0,-13Z"/>
+<text x="245.0" y="86" text-anchor="middle" fill="#c9d1d9" font-size="28" font-weight="bold">1</text>
+<text x="245.0" y="145" text-anchor="middle" fill="#39d353" font-size="14" font-weight="bold">Current Streak</text>
+<text x="245.0" y="168" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="normal">Nov 5</text>
+<text x="408.3" y="92" text-anchor="middle" fill="#c9d1d9" font-size="28" font-weight="bold">33</text>
+<text x="408.3" y="125" text-anchor="middle" fill="#8b949e" font-size="14" font-weight="normal">Longest Streak</text>
+<text x="408.3" y="150" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="normal">Sep 20 – Oct 22</text>
+</svg>
