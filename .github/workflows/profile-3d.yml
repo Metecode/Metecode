@@ -8,6 +8,11 @@ name: GitHub-Profile-3D-Contrib
 permissions:
   contents: write
 
+# Shared with streak.yml so the two jobs never push at the same time.
+concurrency:
+  group: profile-readme-assets
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
